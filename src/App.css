@@ -1,0 +1,35 @@
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+.Header{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed black;
+  padding: 20px;
+
+
+}
+
+.content{
+  height:200px;
+  margin-top: 10px;
+  padding: 20px;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: start;
+  border: 2px dashed rgb(199, 107, 107);
+
+}
+
+.placeholder{
+  flex:2;
+  border: 2px dashed rgb(41, 109, 47);
+  height:200px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

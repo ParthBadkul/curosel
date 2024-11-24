@@ -1,0 +1,48 @@
+/* SimpleSlider.css */
+
+/* Outer container to position carousel */
+.carousel-wrapper {
+    flex: 1 ;
+    position: relative;
+    margin-top: 0px;
+  /* Full height of viewport */
+  }
+  
+  /* Carousel container for positioning it in the right corner */
+  .carousel-container {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 200px; /* Adjust the width of your carousel */
+  }
+  
+  /* Add additional styling if needed */
+  .carousel-container img {
+    width: 100%; /* Make images responsive */
+    height: auto;
+  }
+  .slick-dots {
+    position: absolute;
+    bottom: 20px; /* Position dots closer to the bottom of the image */
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style the dots */
+  .slick-dots li button:before {
+    font-size: 12px; /* Adjust the size of the dots */
+    color: rgb(104, 98, 98); /* Set the color of the dots */
+    opacity: 0.15;
+  }
+  
+  /* Highlighted dot */
+  .slick-dots li.slick-active button:before {
+    color: rgb(225, 220, 220);
+    opacity: .25;
+  }
+  
+  
